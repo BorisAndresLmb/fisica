@@ -2,9 +2,6 @@
 # Lista de [colaboradores](https://github.com/ofou/fisica/graphs/contributors) ⚡️  
 Formato de ingreso colaboradores: - Nombre Apellido1 Apellido2 (@Nombre-de-usuario)
 
-<<<<<<< HEAD
--Boris Gutiérrez Cornejo (@BorisAndresLmb)
-=======
 1. Dir. Luis Sepulveda Martinez (@Owllxz)
 2. Dir. Omar Olivares Urrutia (@ofou) 
 3. Pablo Luengo Montecino (@DnLaG)
@@ -28,6 +25,3 @@ Formato de ingreso colaboradores: - Nombre Apellido1 Apellido2 (@Nombre-de-usuar
 21. Bastian Villavicencio Jara (@sk8elite)
 22. Michaol Thomas Moore Retamal (@atonx98)
 23. Dennis Queirolo (@dennis-queirolo )
-24. Mario Labbé (LsMario1998)
-25.Boris Gutiérrez (@BorisAndresLmb)
->>>>>>> 0f8739e07f9ca535e61f2d486dd68f5e7875392d
