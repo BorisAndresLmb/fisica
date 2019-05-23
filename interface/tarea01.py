@@ -55,7 +55,7 @@ def helice_conica():
 def helice_circular_1():
     # añadir sus códigos aca
     pass
-def Corona_Sinusoidal():
+def helice_circular_2():
     # añadir sus códigos aca
     pass
 def curva_de_viviani():
@@ -64,23 +64,23 @@ def curva_de_viviani():
 def hipopoda_1():
     # añadir sus códigos aca
     '''
-    Integrantes:
-    - Boris Gutiérrez Cornejo (@BorisAndresLmb)
-    - Juan González Jélvez (@JuanGonzalez33)
-    - Pablo Barrera Whiteley (@Pablobw)
-    - José Flores Cáceres (@JoseFlores9)
-    - Cristobal Rojas Saavedra (@cristotix)
+        Integrantes:
+        - Boris Gutiérrez Cornejo (@BorisAndresLmb)
+        - Juan González Jélvez (@JuanGonzalez33)
+        - Pablo Barrera Whiteley (@Pablobw)
+        - José Flores Cáceres (@JoseFlores9)
+        - Cristobal Rojas Saavedra (@cristotix)
 
-    Función hipopoda_1: Grafica la hipopoda
-    Utiliza la forma paramétrica de la función
-    x= a+(r-a)*cos(t)
-    y=(r-a)*sen(t)
-    z=2*((a*(r-a))**1/2))*sen(t)
-    Parametros:
-    a= distancia del centro de la esfera al eje del cilindro
-    r=Radio de la esfera
-    return: plot Curve (Hipopede)
-    '''
+        Función hipopoda_1: Grafica la hipopoda
+        Utiliza la forma paramétrica de la función
+        x= a+(r-a)*cos(t)
+        y=(r-a)*sen(t)
+        z=2*((a*(r-a))**1/2))*sen(t)
+        Parametros:
+        a= distancia del centro de la esfera al eje del cilindro
+        r=Radio de la esfera
+        return: plot Curve (Hipopede)
+        '''
 
     plt.rcParams['legend.fontsize'] = 10
 
@@ -99,17 +99,18 @@ def hipopoda_1():
     ax.legend()
 
     plt.show()
+
     pass
 def conica_de_papus():
     # añadir sus códigos aca
     pass
-def Curva_de_Arquitas():
+def hipopoda_2():
     # añadir sus códigos aca
     pass
 def horoptera():
     # añadir sus códigos aca
     pass
-def Curva_Bicilindrica():
+def hipopoda_3():
     # añadir sus códigos aca
     pass
 
@@ -133,22 +134,22 @@ if __name__ == '__main__':
     curva_de_ejemplo = tk.Button(master=frame, text="Hélice Cónica", command=helice_conica)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
-    curva_de_ejemplo = tk.Button(master=frame, text="Hélice Circular", command=helice_circular_1)
+    curva_de_ejemplo = tk.Button(master=frame, text="Hélice Circular 1", command=helice_circular_1)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
-    curva_de_ejemplo = tk.Button(master=frame, text="Corona Sinusoidal", command=Corona_Sinusoidal)
+    curva_de_ejemplo = tk.Button(master=frame, text="Hélice Circular 2", command=helice_circular_2)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
     curva_de_ejemplo = tk.Button(master=frame, text="Curva de Viviani", command=curva_de_ejemplo)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
-    curva_de_ejemplo = tk.Button(master=frame, text="Hipopoda", command=hipopoda_1)
+    curva_de_ejemplo = tk.Button(master=frame, text="Hipopoda 1", command=hipopoda_1)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
-    curva_de_ejemplo = tk.Button(master=frame, text="Curva de Arquitas", command=Curva_de_Arquitas)
+    curva_de_ejemplo = tk.Button(master=frame, text="Hipopoda 2", command=hipopoda_2)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
-    curva_de_ejemplo = tk.Button(master=frame, text="Curva Bicilindrica", command=Curva_Bicilindrica)
+    curva_de_ejemplo = tk.Button(master=frame, text="Hipopoda 3", command=hipopoda_3)
     curva_de_ejemplo.pack(side=tk.BOTTOM, padx=10, pady=10)
 
     curva_de_ejemplo = tk.Button(master=frame, text="Conica de Papus", command=conica_de_papus)
