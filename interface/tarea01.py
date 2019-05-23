@@ -82,7 +82,7 @@ def hipopoda_1():
            return: plot Curve (Hipopede)
            '''
 
-    plt.rcParams['legend.fontsize'] = 10
+    plt.rcParams['legend.fontsize'] = 12
 
     fig = plt.figure()
     ax = fig.gca(projection='3d')
@@ -94,7 +94,7 @@ def hipopoda_1():
     x = a + (r - a) * np.cos(theta)
     y = (r - a) * np.sin(theta)
     z = 2 * (a * (r - a)) ** (1 / 2) * np.sin(theta / 2)
-    ax.plot(x, y, z, label='parametric curve')
+    ax.plot(x, y, z, label='Hipopede de Eudoxo')
 
     ax.legend()
 
