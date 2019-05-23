@@ -63,15 +63,23 @@ def curva_de_viviani():
     pass
 def hipopoda_1():
     # añadir sus códigos aca
-    '''Función hipopoda_1: Grafica la hipopoda
+    '''
+    Integrantes:
+    Boris Gutiérrez @BorisAndresLmb
+    Juan González @JuanGonzalez33
+    Pablo Barrera @Pablobw
+    José Flores @JoseFlores9
+    Cristobal Rojas @cristotix
+    Función hipopoda_1: Grafica la hipopoda
     Utiliza la forma paramétrica de la función
     x= a+(r-a)*cos(t)
     y=(r-a)*sen(t)
     z=2*((a*(r-a))**1/2))*sen(t)
     Parametros:
-    a= valor entre 0 y el Radio
-    r=Radio
+    a= distancia del centro de la esfera al eje del cilindro
+    r=Radio de la esfera
     '''
+
     plt.rcParams['legend.fontsize'] = 10
 
     fig = plt.figure()
