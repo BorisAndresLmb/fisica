@@ -65,11 +65,12 @@ def hipopoda_1():
     # añadir sus códigos aca
     '''
     Integrantes:
-    Boris Gutiérrez @BorisAndresLmb
-    Juan González @JuanGonzalez33
-    Pablo Barrera @Pablobw
-    José Flores @JoseFlores9
-    Cristobal Rojas @cristotix
+    - Boris Gutiérrez Cornejo (@BorisAndresLmb)
+    - Juan González Jélvez (@JuanGonzalez33)
+    - Pablo Barrera Whiteley (@Pablobw)
+    - José Flores Cáceres (@JoseFlores9)
+    - Cristobal Rojas Saavedra (@cristotix)
+
     Función hipopoda_1: Grafica la hipopoda
     Utiliza la forma paramétrica de la función
     x= a+(r-a)*cos(t)
@@ -78,6 +79,7 @@ def hipopoda_1():
     Parametros:
     a= distancia del centro de la esfera al eje del cilindro
     r=Radio de la esfera
+    return: plot Curve (Hipopede)
     '''
 
     plt.rcParams['legend.fontsize'] = 10
